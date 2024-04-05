@@ -1,0 +1,295 @@
+*{ /*Universal Selector*/
+	
+	/*CSS reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: "Calibri", monospace;
+}
+/*TYPE Selector*/
+body
+  {
+    background-color: whitesmoke;
+  }
+nav
+  {
+    position: absolute;
+    margin-top: 1rem;
+  }
+a
+  {
+    text-decoration: none;
+  }
+h3
+  {
+    position: absolute;
+    color: gold;
+    margin-top: 3rem;
+    margin-left: 8rem;
+  }
+
+/*LeftBox Start Code*/
+/*LeftBox*/
+/*CLASS Selector*/
+.leftBox
+  {
+		height: 600px;
+		width: 49vw;
+		display: inline-block;
+  }
+.textHi
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+/*ID Selector*/
+#name-leftbox
+  {
+    margin-top: 1rem;
+    margin-left: 8rem;
+    color: black;
+  }
+#hello
+  {
+    color: black;
+    text-shadow: 1px 4px 5px #808080;;
+    font-size: 4em;
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
+#parShort
+  {
+    margin-top: 2rem;
+    margin-left: 8rem;
+    color: gray;
+    text-shadow: 1px 3px 6px grey;
+    font-size: 1.8em;
+    text-align: justify;
+  }
+#btn
+  {
+    margin-top: 2rem;
+  }
+#button1
+  {
+    margin-left: 8rem;
+    border: 1px solid black;
+    color: black;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 20px;
+    font-size: 1em;
+    background-color: orange;
+  }
+  #button2
+  {
+    margin-left: 1rem;
+    border: 1px solid black;
+    color: black;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: white;
+  }
+/*LeftBox End Code*/
+
+/*RightBox Start Code*/
+/*RightBox*/
+/*CLASS Selector*/
+.rightBox
+  {
+    position: absolute;
+		height: 600px;
+		width: 49vw;
+		display: inline-block;
+  }
+.mainNav
+  {
+    position: relative;
+    color: black;
+    margin-right: 2rem;
+    margin-left: 1rem;
+  }
+/*ID Selector*/
+#mainNavA
+  {
+    margin-left: 18rem;
+  }
+#bgPix
+  {
+    height: 600px;
+    width: 49vw;
+  }
+/*RightBox End Code*/
+
+/*Projects CSS Code start here*/
+/*Project heading start*/
+/*ID Selector*/
+#projects
+	{
+    position: relative;
+		text-align: center;
+		padding-bottom: .5rem;
+	}
+#projects-heading
+	{
+		text-align: center;
+		margin-top: 1rem;
+	}
+/*Project heading end*/
+
+/*Project1 and Project3 start*/
+/*card0, card0-title, card0-par, card0-button start*/
+/*CLASS Selector*/
+.card0
+	{
+		background-color: white;
+		height: 300px;
+		width: 30vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+		display: inline-block;
+    margin-top: 10vh;
+	}
+/*ID Selector*/
+#card0-title
+  {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 300px;
+		width: 30vw;
+    margin-top: 2vw;
+    padding: 1rem;
+    text-align: center;
+  }
+#card0-par
+  {
+    position: absolute;
+    height: 300px;
+    width: 30vw;
+    margin-top: 6vw;
+    padding: 1rem;
+    text-align: center;
+  }
+#card0-button
+  {
+    position: absolute;
+    border: 1px solid black;
+    color: black;
+    margin-top: 17vw;
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin-left: -13vw;
+  }
+/*card0, card0-title, card0-par, card0-button end*/
+
+/*card0-img start*/
+.card0-div
+{
+  display: inline-block;
+}
+/*ID Selector*/
+#card0-img
+  {
+    height: 300px;
+		width: 25vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+		display: inline-block;
+  }
+/*card0, card0-img end*/
+/*Project1 and Project3 end*/
+
+/*Project2 start*/
+/*card1, card1-title, card1-par, card1-button start*/
+/*CLASS Selector*/
+.card1
+	{
+		height: 300px;
+		width: 25vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+		display: inline-block;
+    margin-top: 10vh;
+	}
+/*ID Selector*/
+#card1-title
+  {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 300px;
+		width: 30vw;
+    margin-top: 2vw;
+    padding: 1rem;
+    text-align: center;
+  }
+#card1-par
+  {
+    position: absolute;
+    height: 300px;
+    width: 30vw;
+    margin-top: 6vw;
+    padding: 1rem;
+    text-align: center;
+  }
+#card1-button
+  {
+    position: absolute;
+    border: 1px solid black;
+    color: black;
+    margin-top: 17vw;
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin-left: -13vw;
+  }
+/*card0, card0-title, card0-par, card0-button end*/
+
+/*card0-img start*/
+.card1-div
+  {
+    background-color: white;
+    height: 300px;
+    width: 30vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    margin-top: 10vh;
+  }
+/*ID Selector*/
+#card1-img
+  {
+    height: 300px;
+		width: 25vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+		display: inline-block;
+  }
+/*card0, card0-img end*/
+/*Project2 end*/
+
+
+/*CSS Code for div contacts*/
+#contact
+	{
+		width: 50vw;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 2rem;
+		text-align: center;
+	}
+#social
+	{
+		text-align: center;
+    color:  gray;
+		margin: 0.5rem;
+	}
+.social-img
+	{
+		height: 50px;
+		width: 50px;
+		margin: 1rem;
+	}
